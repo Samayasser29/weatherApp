@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <nav>
+
+        <nav class="navbar navbar-expand-lg dark-navy  p-4">
+            <div class="container-fluid  ">
+              <div class="d-flex align-items-center ms-5 p-2">
+                <img src="./images/logo@2x.png" class="w-25 me-2" alt="">
+                <div class="logo-text mt-2">
+                <p class="bold mb-0">Weather</p>
+                <p text-light>tagline goes here</p>
+              </div>
+            </div>
+                
+              <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-light"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav nav-edit ms-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+    </nav>
+    <main>
+      
+        <section class="section1  ">
+            
+            <div class="container inputs overflow-hidden ">
+             <form action="" class=" position-relative d-flex justify-content-center align-items-center align-items-center">
+                <input  id="locationInput" type="text" class="form-control text-black dark-navy border-0 mt-5 p-3 rounded-5 " placeholder="Find ypur location ..." >
+                <button id="locationBtn" type= "button" class=" position-absolute  button-position  btn btn-light ps-5 pe-5 pt-2 pb-2 rounded-5 ">Find</button>
+            </form>
+            </div>
+
+
+            <div class=" container ">
+             <div class="content mt-2  ">
+                <div class="row gx-1 mt-3 pb-5" id="myData">
+                 
+                    
+                </div>
+            </div>
+            </div>
+            
+            <div class="footer mt-5 p-5 container-fluid  " >
+                <div class="container  footer-content ">
+                   <div class="row">
+                    <div class="col-md-6 mx-5">
+                        <div class="footer-form  ">
+                            <form class="position-relative">
+                                <input type="text" class="form-control dark-navy border-0 rounded-5 p-3" placeholder="Enter your mail to subscribe ...">
+                                <button id="locationBtn" type= "button" class=" position-absolute  footer-button-position  btn btn-light ps-5 pe-5 pt-2 pb-2 rounded-5 ">Find</button>
+                            </form>
+                            <p  class="ms-3 mt-3"> Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-form ">
+                           
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+
+        </section>
+         
+    </main>
+
+    
+   
+    
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

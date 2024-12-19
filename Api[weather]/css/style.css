@@ -1,0 +1,118 @@
+.navbar{
+    --bs-navbar-active-color:  #009ad8;
+}
+
+
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}   
+
+.nav-list ul li{
+    margin-right: 0.8rem;
+    transition: color;
+}
+
+.logo p{
+    font-weight: bold;
+}
+
+.section1{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.weather-card{
+    background: #323544;
+    
+}
+.navy{
+    background: #323544;
+}
+.dark-navy{
+   background-color:#1e202b ; 
+}
+
+.date-details{
+    background-color:  #1e202b;
+}
+.weather-content h1{
+    font-size: 6.4285714286rem;
+}
+.weather-content p{
+    color: #009ad8;
+}
+
+.button-position{
+    top: 3.5rem;
+    right: 0.5rem;
+    color:aliceblue;
+    background-color: #009ad8;
+    border: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.nav-edit li a{
+    color:aliceblue;
+    font-size: medium;
+    margin-right:1.5rem ;
+}
+.footer{
+    background: #323544;
+}
+.active {
+  
+   border: #009ad8 2px solid;
+   border-radius: 20px;
+   padding: 5rem ;
+   padding-right: 5rem ;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+link.active, .navbar-nav .nav-link.show  {
+    color: var(--bs-navbar-active-color);
+    
+}
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-active-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-active-color);
+   
+}
+
+.footer-button-position{
+    top: 0.5rem;
+    right: 0.5rem;
+    color:aliceblue;
+    background-color: #009ad8;
+    border: 0;
+}
+
+input::placeholder{
+    color: white !important;
+    opacity: 0.5 !important;
+    padding-left: 1rem;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #1e202b;
+    /* border-color: #86b7fe; */
+    
+    /* box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25); */
+}
+.text-black {
+    padding-left: 1rem;
+    --bs-text-opacity: 1;
+    color: white, var(--bs-text-opacity)!important;
+}
